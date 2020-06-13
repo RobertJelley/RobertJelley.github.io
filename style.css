@@ -1,11 +1,11 @@
 @import url(//fonts.googleapis.com/css?family=Open+Sans);
 
 body {
-    background-color: rgba(red, green, blue, alpha);  
+    background-color: lightskyblue;
     font-family: 'Open Sans', sans-serif;
   }
 
-h1, h2 {
+h1, h2, p {
     color: blue;
     text-align: center;
 }
