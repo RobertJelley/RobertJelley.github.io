@@ -1,11 +1,36 @@
-@import url(//fonts.googleapis.com/css?family=Open+Sans);
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
 
-body {
-    background-color: black;
-    font-family: 'Open Sans', sans-serif;
-  }
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  min-height: 8vh;
+  background-color: #af899e;
+  font-family: 'Poppins', sans-serif;
+}
 
-h1, h2, p {
-    color: blue;
-    text-align: center;
+.logo {
+  color: rgb(226, 226, 226);
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  font-size: 20px;
+}
+
+.navlinks {
+  display: flex;
+  justify-content: space-around;
+  width: 40%;
+}
+
+.navlinks li {
+  list-style: none;
+}
+
+.navlinks a {
+  color: rgb(226, 226, 226);
+  text-decoration: none;
 }
