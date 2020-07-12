@@ -9,7 +9,7 @@ nav {
   justify-content: space-around;
   align-items: center;
   min-height: 8vh;
-  background-color: #af899e;
+  background-color: #c79a58;
   font-family: 'Poppins', sans-serif;
 }
 
@@ -33,4 +33,12 @@ nav {
 .navlinks a {
   color: rgb(226, 226, 226);
   text-decoration: none;
+}
+
+img {
+  width: 25%;
+  height: 25%;
+  margin: 50px;
+  padding: 50px;
+  box-sizing: content-box;
 }
